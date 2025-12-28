@@ -1,20 +1,106 @@
 <style>
-    
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .head-banner-container {
+        border-bottom: {{border_weight}}px {{border_style}} {{border_color}};
+        padding-bottom: {{padding}}px;
+        padding-top: {{padding}}px;
+        background: {{bg_color}};
+    }
+
+    .head-banner-text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: {{gap_between}}px;
+    }
+
+    .head-banner-right {
+        display: none;
+    }
+
+    @media (min-width: 1023px) {
+       .head-banner-container {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-column-gap: 20px;
+       }
+       .head-banner-text-container {
+        grid-column-start: 2;
+        gap: {{gap_between}}px;
+        }
+        .head-banner-right {
+            display: flex;
+            justify-content: right;
+            margin-right: 15px;
+        }
+        .head-banner-right-link-2 {
+            display: inline-block;
+            border-left: 2px solid black;
+            padding-left: 6px;
+            margin-left: 8px;
+        }
+        .utility-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+
+
 </style>
 
 <head>
     <div class="head-banner-container">
-        <a class="head-banner-text">
-            <span><strong>{{bold_banner_text}}</strong></span>
-            {{banner_text}}
-        </a>
-        <img 
-            class="head-banner-icon"
-            src="{{banner_icon.src}}"
-            alt="{{banner_icon.alt}}"
-            width="{{banner_icon.width}}"
-            height="{{banner_icon.height}}"
-        />
+
+        <div class="head-banner-text-container"> 
+            <a class="head-banner-text">
+                <span><strong>{{bold_banner_text}}</strong></span>
+                {{banner_text}}
+            </a>
+            <img 
+                class="head-banner-icon"
+                src="{{banner_icon.src}}"
+                alt="{{banner_icon.alt}}"
+                width="{{banner_icon.width}}"
+                height="{{banner_icon.height}}"
+            />
+        </div>
+
+        <div class="head-banner-right">
+            <nav class="utility-nav" aria-label="Utility Navigation">
+                <a 
+                class="head-banner-right-icon" 
+                href="{{head_banner_right_link1}}"
+                >
+                    <img 
+                        src="{{banner_right_icon.src}}"
+                        alt="{{banner_right_icon.alt}}"
+                        width="{{banner_right_icon.width}}"
+                        height="{{banner_right_icon.height}}"
+                    />
+                </a>
+
+                <a 
+                href="{{head_banner_right_link1}}"
+                >
+                    <div class="utility-nav-location-icon"></div>
+                    {{head_banner_right_text1}}
+                </a>
+
+                <a 
+                class="head-banner-right-link-2" 
+                href="{{head_banner_right_link2}}"
+                >
+                    {{head_banner_right_text2}}
+                </a>
+            </nav>
+        </div>
     </div>
 </head>
 
