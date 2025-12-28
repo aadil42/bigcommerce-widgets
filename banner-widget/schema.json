@@ -1,0 +1,23 @@
+[
+  {
+    "type": "string",
+    "label": "Bold Banner Text",
+    "id": "bold_banner_text",
+    "default": "Free Shipping"
+  },
+  {
+    "type": "string",
+    "label": "Banner Text",
+    "id": "banner_text",
+    "default": "on all orders above $50"
+  },
+  {
+    "type": "image",
+    "label": "Icon",
+    "id": "banner_icon",
+    "default": {
+      "src": "/assets/images/test-icon.svg",
+      "alt": "Test Icon"
+    }
+  }
+]
