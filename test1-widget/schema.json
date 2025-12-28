@@ -1,0 +1,17 @@
+[
+  {
+    "type": "string",
+    "label": "Bold Banner Text",
+    "id": "bold_banner_text"
+  },
+  {
+   "type": "string",
+    "label": "Banner Text",
+    "id": "banner_text"
+  },
+  {
+    "type": "image",
+    "label": "Icon",
+    "id": "banner_icon"
+  }
+]
