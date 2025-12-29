@@ -19,12 +19,12 @@
             "default": "on all orders above $50"
           },
           {
-            "type": "image",
+            "type": "imageManager",
             "label": "Icon",
             "id": "banner_icon",
             "default": {
               "src": "https://cdn.simpleicons.org/github",
-              "alt": "Test Icon"
+              "type": "IMAGE_MANAGER"
             }
           },
           {
@@ -87,12 +87,12 @@
             "default": "#ffffff"
           },
           {
-            "type": "image",
+            "type": "imageManager",
             "label": "Icon",
             "id": "banner_right_icon",
             "default": {
               "src": "https://cdn.simpleicons.org/github",
-              "alt": "Test Icon"
+              "type": "IMAGE_MANAGER"
             }
           },
           {
