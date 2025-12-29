@@ -1,22 +1,24 @@
 {
   "bold_banner_text": "Free Shipping",
   "banner_text": "on all orders above $50",
-  "banner_icon": {
-    "src": "https://cdn.simpleicons.org/github",
-    "type": "IMAGE_MANAGER"
-  },
   "padding": 8,
   "gap_between": 5,
   "border_color": "#000000",
   "border_weight": 1,
   "border_style": "solid",
   "bg_color": "#ffffff",
+  "head_banner_right_text1": "Visit Us",
+  "head_banner_right_text2": "Baker's Rewards",
+  "head_banner_right_link1": "#",
+  "head_banner_right_link2": "#",
+  "banner_icon": {
+    "src": "https://cdn.simpleicons.org/github",
+    "type": "IMAGE_MANAGER"
+  },
+  "banner_icon_alt_text_1": "Banner Icon 1",
   "banner_right_icon": {
     "src": "https://cdn.simpleicons.org/github",
     "type": "IMAGE_MANAGER"
   },
-  "head_banner_right_text1": "Visit Us",
-  "head_banner_right_text2": "Baker's Rewards",
-  "head_banner_right_link1": "#",
-  "head_banner_right_link2": "#"
+  "banner_icon_alt_text_2": "Free Shipping"
 }

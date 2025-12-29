@@ -19,15 +19,6 @@
             "default": "on all orders above $50"
           },
           {
-            "type": "imageManager",
-            "label": "Icon",
-            "id": "banner_icon",
-            "default": {
-              "src": "https://cdn.simpleicons.org/github",
-              "type": "IMAGE_MANAGER"
-            }
-          },
-          {
             "type": "number",
             "label": "Gap top-bottom",
             "id": "padding",
@@ -68,32 +59,26 @@
             "label": "Border Style",
             "id": "border_style",
             "default": "solid",
-            "options": [
-              { "label": "None", "value": "none" },
-              { "label": "Solid", "value": "solid" },
-              { "label": "Dashed", "value": "dashed" },
-              { "label": "Dotted", "value": "dotted" },
-              { "label": "Double", "value": "double" },
-              { "label": "Groove", "value": "groove" },
-              { "label": "Ridge", "value": "ridge" },
-              { "label": "Inset", "value": "inset" },
-              { "label": "Outset", "value": "outset" }
-            ]
+            "typeMeta": {
+              "selectOptions": [
+                { "label": "None", "value": "none" },
+                { "label": "Solid", "value": "solid" },
+                { "label": "Dashed", "value": "dashed" },
+                { "label": "Dotted", "value": "dotted" },
+                { "label": "Double", "value": "double" },
+                { "label": "Groove", "value": "groove" },
+                { "label": "Ridge", "value": "ridge" },
+                { "label": "Inset", "value": "inset" },
+                { "label": "Outset", "value": "outset" }
+              ]
+            }
+            
           },
           {
             "type": "color",
             "label": "Background color",
             "id": "bg_color",
             "default": "#ffffff"
-          },
-          {
-            "type": "imageManager",
-            "label": "Icon",
-            "id": "banner_right_icon",
-            "default": {
-              "src": "https://cdn.simpleicons.org/github",
-              "type": "IMAGE_MANAGER"
-            }
           },
           {
             "type": "text",
@@ -118,6 +103,45 @@
             "label": "Link 2",
             "id": "head_banner_right_link2",
             "default": "#"
+          }
+        ]
+      },
+      {
+        "label": "Banner Icon 1",
+        "settings": [
+          {
+            "type": "imageManager",
+            "id": "banner_icon",
+            "default": {
+              "src": "https://cdn.simpleicons.org/github",
+              "type": "IMAGE_MANAGER"
+            }
+          },
+          {
+            "type": "text",
+            "label": "Alt text",
+            "id": "banner_icon_alt_text_1",
+            "default": "Banner Icon 1"
+          }
+          
+        ]
+      },
+      {
+        "label": "Banner Icon 2",
+        "settings": [
+          {
+            "type": "imageManager",
+            "id": "banner_right_icon",
+            "default": {
+              "src": "https://cdn.simpleicons.org/github",
+              "type": "IMAGE_MANAGER"
+            }
+          },
+          {
+            "type": "text",
+            "label": "Alt text",
+            "id": "banner_icon_alt_text_2",
+            "default": "Free Shipping"
           }
         ]
       }
