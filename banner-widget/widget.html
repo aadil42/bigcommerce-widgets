@@ -11,6 +11,13 @@
         padding-top: {{padding}}px;
         background: {{bg_color}};
     }
+    
+    .head-banner-container { 
+        /* this is to override the automatic padding applied by auto-generated
+         bigcommerce container divs */
+        width: 100vw; 
+        margin-left: calc(50% - 50vw);
+    }
 
     .head-banner-text-container {
         display: flex;
