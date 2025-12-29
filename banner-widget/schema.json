@@ -24,9 +24,7 @@
             "id": "banner_icon",
             "default": {
               "src": "https://cdn.simpleicons.org/github",
-              "alt": "Test Icon",
-              "width": "25px",
-              "height": "25px"
+              "alt": "Test Icon"
             }
           },
           {
@@ -94,9 +92,7 @@
             "id": "banner_right_icon",
             "default": {
               "src": "https://cdn.simpleicons.org/github",
-              "alt": "Test Icon",
-              "width": "25px",
-              "height": "25px"
+              "alt": "Test Icon"
             }
           },
           {

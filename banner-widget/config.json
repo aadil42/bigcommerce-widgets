@@ -3,9 +3,7 @@
   "banner_text": "on all orders above $50",
   "banner_icon": {
     "src": "https://cdn.simpleicons.org/github",
-    "alt": "Test Icon",
-    "width": "25px",
-    "height": "25px"
+    "alt": "Test Icon"
   },
   "padding": 8,
   "gap_between": 5,
@@ -15,9 +13,7 @@
   "bg_color": "#ffffff",
   "banner_right_icon": {
     "src": "https://cdn.simpleicons.org/github",
-    "alt": "Test Icon",
-    "width": "25px",
-    "height": "25px"
+    "alt": "Test Icon"
   },
   "head_banner_right_text1": "Visit Us",
   "head_banner_right_text2": "Baker's Rewards",

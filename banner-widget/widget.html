@@ -26,6 +26,10 @@
         gap: {{gap_between}}px;
     }
 
+    .head-banner-icons {
+        width: 25px;
+        height: 25px;
+    }
     .head-banner-right {
         display: none;
     }
@@ -71,11 +75,9 @@
                 {{banner_text}}
             </a>
             <img 
-                class="head-banner-icon"
+                class="head-banner-icons"
                 src="{{banner_icon.src}}"
                 alt="{{banner_icon.alt}}"
-                width="{{banner_icon.width}}"
-                height="{{banner_icon.height}}"
             />
         </div>
 
@@ -86,10 +88,9 @@
                 href="{{head_banner_right_link1}}"
                 >
                     <img 
+                        class="head-banner-icons"
                         src="{{banner_right_icon.src}}"
                         alt="{{banner_right_icon.alt}}"
-                        width="{{banner_right_icon.width}}"
-                        height="{{banner_right_icon.height}}"
                     />
                 </a>
 
